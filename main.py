@@ -1,6 +1,13 @@
-from Detection import detectionSign as dtSign
+from Detection import detectionVIDEO as dtVIDEO
+from Detection import detectionIMAGE as dtIMAGE
 import cv2 as cv
 
 
-file = 'static/traffic.mp4'
-cv.imshow('frame', dtSign(file))
+file = 'static/img_1.png'
+dtIMAGE(file)
+
+# video = 'static/traffic.mp4'
+# dtVIDEO(video)
+
+
+
